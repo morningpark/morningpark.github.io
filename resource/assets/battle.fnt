@@ -1,0 +1,13 @@
+{"file":"battle.png","frames":{
+"战":{"x":69,"y":0,"w":66,"h":66,"offX":8,"offY":7,"sourceW":80,"sourceH":80},
+"2":{"x":68,"y":68,"w":65,"h":67,"offX":8,"offY":7,"sourceW":80,"sourceH":80},
+"1":{"x":68,"y":137,"w":64,"h":65,"offX":8,"offY":7,"sourceW":80,"sourceH":80},
+"3":{"x":0,"y":136,"w":66,"h":65,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"4":{"x":137,"y":0,"w":66,"h":66,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"5":{"x":0,"y":68,"w":66,"h":66,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"6":{"x":135,"y":68,"w":64,"h":66,"offX":9,"offY":7,"sourceW":80,"sourceH":80},
+"7":{"x":0,"y":269,"w":63,"h":66,"offX":8,"offY":7,"sourceW":80,"sourceH":80},
+"8":{"x":67,"y":204,"w":64,"h":65,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"9":{"x":0,"y":203,"w":65,"h":64,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"十":{"x":0,"y":0,"w":67,"h":66,"offX":7,"offY":7,"sourceW":80,"sourceH":80},
+"第":{"x":135,"y":136,"w":64,"h":66,"offX":9,"offY":7,"sourceW":80,"sourceH":80}}}
