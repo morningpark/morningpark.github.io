@@ -5,31 +5,23 @@
 		"name":"preload"
 	},
 	{
-		"keys":"0ui_btn,loadbg,loadl,gamebgsound,loaderClose,loaderOpen",
+		"keys":"0ui_btn,gamebgsound,loaderClose,loaderOpen",
 		"name":"welcomeload"
 	},
 	{
-		"keys":"flag1,heroIcon,mapbgsound,button_png",
+		"keys":"mapbgsound,button_png",
 		"name":"maps"
 	},
 	{
-		"keys":"buildTooljson,Base02,Base03,uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,life_png",
+		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk",
 		"name":"uiLoad"
-	},
-	{
-		"keys":"Monster01_png,Monster01_json,Monster02_png,Monster02_json,Monster03_png,Monster03_json,Monster04_png,Monster04_json,Monster10_png,Monster10_json,Monster11_png,Monster11_json,Monster12_png,Monster12_json,Monster13_png,Monster13_json,Monster15_png,Monster15_json,Boss01_png,Boss01_json,Boss02_png,Boss02_json,b1_json,b1_png,Monster06_png,Monster05_json,Monster05_png,Monster06_json,Monster07_png,Monster07_json",
-		"name":"monsterLoad"
-	},
-	{
-		"keys":"Arrow01png,Arrow01json,Arrow032png,Arrow032json,MagicBullet010203png,MagicBullet010203json,MagicWizard010203png,MagicWizard010203json,Explo01png,Explo01json,Explo02png,Explo02json,Explo031png,Explo031json,ZenYuan1json,ZenYuan1png,ZenYuan2json,ZenYuan2png,human2-2_json,human2-2_png,human2-3_json,human2-3_png,human3-1_json,human3-1_png,human3-2_json,human3-2_png,h2001_json,h2001_png,h1001_json,h1001_png,h1002_json,h1002_png,human2-1-1_png,human2-1-1_json,s04_png,s04_json,s14_json,s14_png,xinshe_png,xinshe_json,jinwei_png,jinwei_json",
-		"name":"towerLoad"
 	},
 	{
 		"keys":"victorysd,bo_start,select,sell_tower,arrow_fire1,arrow_fire2,arrow_hit1,arrow_hit2,explo_firestart1,explo_fireend1,magic_fire1,shield_fire1,shield_fire2,shield_fire3,monster_die1,monster_die2,monster_die3,monster_die4,arrow_ready1,arrow_ready2,arrow_ready3,shield_ready1,shield_ready2,shield_ready3,magic_ready1,magic_ready2,magic_ready3,explo_ready1,explo_ready2,explo_ready3,levelUpMan_mp3,levelUpwoman_mp3,Thanks,WellPlayed,sorry,quick,roar_mp3",
 		"name":"soundLoad"
 	},
 	{
-		"keys":"map0bg,sea_png,brick_png",
+		"keys":"map0bg,sea_png,brick_png,h1001_json,h1001_png",
 		"name":"guanka01load"
 	},
 	{
@@ -74,16 +66,6 @@
 		"url":"assets/0ui_btn.png"
 	},
 	{
-		"name":"loadbg",
-		"type":"image",
-		"url":"assets/loadbg.jpg"
-	},
-	{
-		"name":"loadl",
-		"type":"image",
-		"url":"assets/loadl.jpg"
-	},
-	{
 		"name":"gamebgsound",
 		"soundType":"music",
 		"type":"sound",
@@ -102,16 +84,6 @@
 		"url":"assets/sound/loaderOpen.mp3"
 	},
 	{
-		"name":"flag1",
-		"type":"image",
-		"url":"assets/flag1.png"
-	},
-	{
-		"name":"heroIcon",
-		"type":"image",
-		"url":"assets/heroIcon.png"
-	},
-	{
 		"name":"mapbgsound",
 		"soundType":"music",
 		"type":"sound",
@@ -127,22 +99,6 @@
 		"soundType":"music",
 		"type":"sound",
 		"url":"assets/sound/map0bg.mp3"
-	},
-	{
-		"name":"buildTooljson",
-		"subkeys":"board,lock,lock_39454,queren,s01,s02,s03,s04,s05,s06,s07,sell,yuan",
-		"type":"sheet",
-		"url":"assets/build/buildTool.json"
-	},
-	{
-		"name":"Base02",
-		"type":"image",
-		"url":"assets/build/Base02.png"
-	},
-	{
-		"name":"Base03",
-		"type":"image",
-		"url":"assets/build/Base03.png"
 	},
 	{
 		"name":"uiinfo",
@@ -193,206 +149,6 @@
 		"name":"stone1json",
 		"type":"json",
 		"url":"assets/stone1.json"
-	},
-	{
-		"name":"Monster01_png",
-		"type":"image",
-		"url":"assets/monsters/Monster01.png"
-	},
-	{
-		"name":"Monster01_json",
-		"type":"json",
-		"url":"assets/monsters/Monster01.json"
-	},
-	{
-		"name":"Monster02_png",
-		"type":"image",
-		"url":"assets/monsters/Monster02.png"
-	},
-	{
-		"name":"Monster02_json",
-		"type":"json",
-		"url":"assets/monsters/Monster02.json"
-	},
-	{
-		"name":"Monster03_png",
-		"type":"image",
-		"url":"assets/monsters/Monster03.png"
-	},
-	{
-		"name":"Monster03_json",
-		"type":"json",
-		"url":"assets/monsters/Monster03.json"
-	},
-	{
-		"name":"Monster04_png",
-		"type":"image",
-		"url":"assets/monsters/Monster04.png"
-	},
-	{
-		"name":"Monster04_json",
-		"type":"json",
-		"url":"assets/monsters/Monster04.json"
-	},
-	{
-		"name":"Monster10_png",
-		"type":"image",
-		"url":"assets/monsters/Monster10.png"
-	},
-	{
-		"name":"Monster10_json",
-		"type":"json",
-		"url":"assets/monsters/Monster10.json"
-	},
-	{
-		"name":"Monster11_png",
-		"type":"image",
-		"url":"assets/monsters/Monster11.png"
-	},
-	{
-		"name":"Monster11_json",
-		"type":"json",
-		"url":"assets/monsters/Monster11.json"
-	},
-	{
-		"name":"Monster12_png",
-		"type":"image",
-		"url":"assets/monsters/Monster12.png"
-	},
-	{
-		"name":"Monster12_json",
-		"type":"json",
-		"url":"assets/monsters/Monster12.json"
-	},
-	{
-		"name":"Monster13_png",
-		"type":"image",
-		"url":"assets/monsters/Monster13.png"
-	},
-	{
-		"name":"Monster13_json",
-		"type":"json",
-		"url":"assets/monsters/Monster13.json"
-	},
-	{
-		"name":"Monster15_png",
-		"type":"image",
-		"url":"assets/monsters/Monster15.png"
-	},
-	{
-		"name":"Monster15_json",
-		"type":"json",
-		"url":"assets/monsters/Monster15.json"
-	},
-	{
-		"name":"Boss01_png",
-		"type":"image",
-		"url":"assets/monsters/Boss01.png"
-	},
-	{
-		"name":"Boss01_json",
-		"type":"json",
-		"url":"assets/monsters/Boss01.json"
-	},
-	{
-		"name":"Boss02_png",
-		"type":"image",
-		"url":"assets/monsters/Boss02.png"
-	},
-	{
-		"name":"Boss02_json",
-		"type":"json",
-		"url":"assets/monsters/Boss02.json"
-	},
-	{
-		"name":"Arrow01png",
-		"type":"image",
-		"url":"assets/weapon/Arrow01.png"
-	},
-	{
-		"name":"Arrow01json",
-		"type":"json",
-		"url":"assets/weapon/Arrow01.json"
-	},
-	{
-		"name":"Arrow032png",
-		"type":"image",
-		"url":"assets/weapon/Arrow032.png"
-	},
-	{
-		"name":"Arrow032json",
-		"type":"json",
-		"url":"assets/weapon/Arrow032.json"
-	},
-	{
-		"name":"MagicBullet010203png",
-		"type":"image",
-		"url":"assets/weapon/MagicBullet010203.png"
-	},
-	{
-		"name":"MagicBullet010203json",
-		"type":"json",
-		"url":"assets/weapon/MagicBullet010203.json"
-	},
-	{
-		"name":"MagicWizard010203png",
-		"type":"image",
-		"url":"assets/soilders/MagicWizard010203.png"
-	},
-	{
-		"name":"MagicWizard010203json",
-		"type":"json",
-		"url":"assets/soilders/MagicWizard010203.json"
-	},
-	{
-		"name":"Explo01png",
-		"type":"image",
-		"url":"assets/weapon/Explo01.png"
-	},
-	{
-		"name":"Explo01json",
-		"type":"json",
-		"url":"assets/weapon/Explo01.json"
-	},
-	{
-		"name":"Explo02png",
-		"type":"image",
-		"url":"assets/weapon/Explo02.png"
-	},
-	{
-		"name":"Explo02json",
-		"type":"json",
-		"url":"assets/weapon/Explo02.json"
-	},
-	{
-		"name":"Explo031png",
-		"type":"image",
-		"url":"assets/weapon/Explo03_1.png"
-	},
-	{
-		"name":"Explo031json",
-		"type":"json",
-		"url":"assets/weapon/Explo03_1.json"
-	},
-	{
-		"name":"ZenYuan1json",
-		"type":"json",
-		"url":"assets/soilders/ZenYuan1.json"
-	},
-	{
-		"name":"ZenYuan1png",
-		"type":"image",
-		"url":"assets/soilders/ZenYuan1.png"
-	},
-	{
-		"name":"ZenYuan2json",
-		"type":"json",
-		"url":"assets/soilders/ZenYuan2.json"
-	},
-	{
-		"name":"ZenYuan2png",
-		"type":"image",
-		"url":"assets/soilders/ZenYuan2.png"
 	},
 	{
 		"name":"victorysd",
@@ -575,109 +331,9 @@
 		"url":"assets/sound/explo_ready3.mp3"
 	},
 	{
-		"name":"human2-2_json",
-		"type":"json",
-		"url":"assets/soilders/human2-2.json"
-	},
-	{
-		"name":"human2-2_png",
-		"type":"image",
-		"url":"assets/soilders/human2-2.png"
-	},
-	{
-		"name":"human2-3_json",
-		"type":"json",
-		"url":"assets/soilders/human2-3.json"
-	},
-	{
-		"name":"human2-3_png",
-		"type":"image",
-		"url":"assets/soilders/human2-3.png"
-	},
-	{
-		"name":"human3-1_json",
-		"type":"json",
-		"url":"assets/soilders/human3-1.json"
-	},
-	{
-		"name":"human3-1_png",
-		"type":"image",
-		"url":"assets/soilders/human3-1.png"
-	},
-	{
-		"name":"human3-2_json",
-		"type":"json",
-		"url":"assets/soilders/human3-2.json"
-	},
-	{
-		"name":"human3-2_png",
-		"type":"image",
-		"url":"assets/soilders/human3-2.png"
-	},
-	{
-		"name":"h2001_json",
-		"type":"json",
-		"url":"assets/soilders/h2001.json"
-	},
-	{
-		"name":"h2001_png",
-		"type":"image",
-		"url":"assets/soilders/h2001.png"
-	},
-	{
-		"name":"h1001_json",
-		"type":"json",
-		"url":"assets/soilders/h1001.json"
-	},
-	{
-		"name":"h1001_png",
-		"type":"image",
-		"url":"assets/soilders/h1001.png"
-	},
-	{
-		"name":"h1002_json",
-		"type":"json",
-		"url":"assets/soilders/h1002.json"
-	},
-	{
-		"name":"h1002_png",
-		"type":"image",
-		"url":"assets/soilders/h1002.png"
-	},
-	{
-		"name":"human2-1-1_png",
-		"type":"image",
-		"url":"assets/soilders/human2-1-1.png"
-	},
-	{
-		"name":"human2-1-1_json",
-		"type":"json",
-		"url":"assets/soilders/human2-1-1.json"
-	},
-	{
-		"name":"s04_png",
-		"type":"image",
-		"url":"assets/soilders/s04.png"
-	},
-	{
-		"name":"s04_json",
-		"type":"json",
-		"url":"assets/soilders/s04.json"
-	},
-	{
 		"name":"button_png",
 		"type":"image",
 		"url":"assets/button.png"
-	},
-	{
-		"name":"s14_json",
-		"type":"json",
-		"url":"assets/soilders/s14.json"
-	},
-	{
-		"name":"s14_png",
-		"type":"image",
-		"url":"assets/soilders/s14.png"
 	},
 	{
 		"name":"levelUpMan_mp3",
@@ -724,74 +380,9 @@
 		"url":"assets/talk.png"
 	},
 	{
-		"name":"xinshe_png",
-		"type":"image",
-		"url":"assets/soilders/xinshe.png"
-	},
-	{
-		"name":"xinshe_json",
-		"type":"json",
-		"url":"assets/soilders/xinshe.json"
-	},
-	{
-		"name":"jinwei_png",
-		"type":"image",
-		"url":"assets/soilders/jinwei.png"
-	},
-	{
-		"name":"jinwei_json",
-		"type":"json",
-		"url":"assets/soilders/jinwei.json"
-	},
-	{
-		"name":"b1_json",
-		"type":"json",
-		"url":"assets/monsters/b1.json"
-	},
-	{
-		"name":"b1_png",
-		"type":"image",
-		"url":"assets/monsters/b1.png"
-	},
-	{
-		"name":"Monster06_png",
-		"type":"image",
-		"url":"assets/monsters/Monster06.png"
-	},
-	{
-		"name":"Monster05_json",
-		"type":"json",
-		"url":"assets/monsters/Monster05.json"
-	},
-	{
-		"name":"Monster05_png",
-		"type":"image",
-		"url":"assets/monsters/Monster05.png"
-	},
-	{
-		"name":"Monster06_json",
-		"type":"json",
-		"url":"assets/monsters/Monster06.json"
-	},
-	{
 		"name":"roar_mp3",
 		"type":"sound",
 		"url":"assets/sound/roar.mp3"
-	},
-	{
-		"name":"life_png",
-		"type":"image",
-		"url":"assets/life.png"
-	},
-	{
-		"name":"Monster07_png",
-		"type":"image",
-		"url":"assets/monsters/Monster07.png"
-	},
-	{
-		"name":"Monster07_json",
-		"type":"json",
-		"url":"assets/monsters/Monster07.json"
 	},
 	{
 		"name":"sea_png",
@@ -802,5 +393,15 @@
 		"name":"brick_png",
 		"type":"image",
 		"url":"assets/brick.png"
+	},
+	{
+		"name":"h1001_json",
+		"type":"json",
+		"url":"assets/player/h1001.json"
+	},
+	{
+		"name":"h1001_png",
+		"type":"image",
+		"url":"assets/player/h1001.png"
 	}]
 }
