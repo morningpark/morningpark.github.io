@@ -21,7 +21,7 @@
 		"name":"soundLoad"
 	},
 	{
-		"keys":"map0bg,sea_png,brick_png,h1001_json,h1001_png",
+		"keys":"map0bg,sea_png,brick_png,h1001_json,h1001_png,kuafu_png,kuafu_json",
 		"name":"guanka01load"
 	},
 	{
@@ -403,5 +403,15 @@
 		"name":"h1001_png",
 		"type":"image",
 		"url":"assets/player/h1001.png"
+	},
+	{
+		"name":"kuafu_png",
+		"type":"image",
+		"url":"assets/player/kuafu.png"
+	},
+	{
+		"name":"kuafu_json",
+		"type":"json",
+		"url":"assets/player/kuafu.json"
 	}]
 }
