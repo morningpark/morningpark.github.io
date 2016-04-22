@@ -5,7 +5,7 @@
 		"name":"preload"
 	},
 	{
-		"keys":"0ui_btn,gamebgsound,loaderClose,loaderOpen",
+		"keys":"0ui_btn,gamebgsound",
 		"name":"welcomeload"
 	},
 	{
@@ -13,11 +13,11 @@
 		"name":"maps"
 	},
 	{
-		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk",
+		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,skill2_png,skill3_png,skill1_png",
 		"name":"uiLoad"
 	},
 	{
-		"keys":"victorysd,bo_start,select,sell_tower,arrow_fire1,arrow_fire2,arrow_hit1,arrow_hit2,explo_firestart1,explo_fireend1,magic_fire1,shield_fire1,shield_fire2,shield_fire3,monster_die1,monster_die2,monster_die3,monster_die4,arrow_ready1,arrow_ready2,arrow_ready3,shield_ready1,shield_ready2,shield_ready3,magic_ready1,magic_ready2,magic_ready3,explo_ready1,explo_ready2,explo_ready3,levelUpMan_mp3,levelUpwoman_mp3,Thanks,WellPlayed,sorry,quick,roar_mp3",
+		"keys":"select,monster_die1,monster_die2,monster_die3,monster_die4,roar_mp3,charge_mp3",
 		"name":"soundLoad"
 	},
 	{
@@ -70,18 +70,6 @@
 		"soundType":"music",
 		"type":"sound",
 		"url":"assets/sound/gamebgsound.mp3"
-	},
-	{
-		"name":"loaderClose",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/loaderClose.mp3"
-	},
-	{
-		"name":"loaderOpen",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/loaderOpen.mp3"
 	},
 	{
 		"name":"mapbgsound",
@@ -151,88 +139,10 @@
 		"url":"assets/stone1.json"
 	},
 	{
-		"name":"victorysd",
-		"soundType":"music",
-		"type":"sound",
-		"url":"assets/sound/victory.mp3"
-	},
-	{
-		"name":"bo_start",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/bo_start.mp3"
-	},
-	{
 		"name":"select",
 		"soundType":"effect",
 		"type":"sound",
 		"url":"assets/sound/select.mp3"
-	},
-	{
-		"name":"sell_tower",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/sell_tower.mp3"
-	},
-	{
-		"name":"arrow_fire1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_fire1.mp3"
-	},
-	{
-		"name":"arrow_fire2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_fire2.mp3"
-	},
-	{
-		"name":"arrow_hit1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_hit1.mp3"
-	},
-	{
-		"name":"arrow_hit2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_hit2.mp3"
-	},
-	{
-		"name":"explo_firestart1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/explo_firestart1.mp3"
-	},
-	{
-		"name":"explo_fireend1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/explo_fireend1.mp3"
-	},
-	{
-		"name":"magic_fire1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/magic_fire1.mp3"
-	},
-	{
-		"name":"shield_fire1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_fire1.mp3"
-	},
-	{
-		"name":"shield_fire2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_fire2.mp3"
-	},
-	{
-		"name":"shield_fire3",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_fire3.mp3"
 	},
 	{
 		"name":"monster_die1",
@@ -259,120 +169,14 @@
 		"url":"assets/sound/monster_die4.mp3"
 	},
 	{
-		"name":"arrow_ready1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_ready1.mp3"
-	},
-	{
-		"name":"arrow_ready2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_ready2.mp3"
-	},
-	{
-		"name":"arrow_ready3",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/arrow_ready3.mp3"
-	},
-	{
-		"name":"shield_ready1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_ready1.mp3"
-	},
-	{
-		"name":"shield_ready2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_ready2.mp3"
-	},
-	{
-		"name":"shield_ready3",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/shield_ready3.mp3"
-	},
-	{
-		"name":"magic_ready1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/magic_ready1.mp3"
-	},
-	{
-		"name":"magic_ready2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/magic_ready2.mp3"
-	},
-	{
-		"name":"magic_ready3",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/magic_ready3.mp3"
-	},
-	{
-		"name":"explo_ready1",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/explo_ready1.mp3"
-	},
-	{
-		"name":"explo_ready2",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/explo_ready2.mp3"
-	},
-	{
-		"name":"explo_ready3",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/explo_ready3.mp3"
-	},
-	{
 		"name":"button_png",
 		"type":"image",
 		"url":"assets/button.png"
 	},
 	{
-		"name":"levelUpMan_mp3",
-		"type":"sound",
-		"url":"assets/sound/levelUpMan.mp3"
-	},
-	{
-		"name":"levelUpwoman_mp3",
-		"type":"sound",
-		"url":"assets/sound/levelUpwoman.mp3"
-	},
-	{
 		"name":"battle_fnt",
 		"type":"font",
 		"url":"assets/battle.fnt"
-	},
-	{
-		"name":"Thanks",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/Thanks.MP3"
-	},
-	{
-		"name":"WellPlayed",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/WellPlayed.MP3"
-	},
-	{
-		"name":"sorry",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/sorry.MP3"
-	},
-	{
-		"name":"quick",
-		"soundType":"effect",
-		"type":"sound",
-		"url":"assets/sound/quick.mp3"
 	},
 	{
 		"name":"talk",
@@ -413,5 +217,25 @@
 		"name":"kuafu_json",
 		"type":"json",
 		"url":"assets/player/kuafu.json"
+	},
+	{
+		"name":"skill2_png",
+		"type":"image",
+		"url":"assets/skill2.png"
+	},
+	{
+		"name":"skill3_png",
+		"type":"image",
+		"url":"assets/skill3.png"
+	},
+	{
+		"name":"skill1_png",
+		"type":"image",
+		"url":"assets/skill1.png"
+	},
+	{
+		"name":"charge_mp3",
+		"type":"sound",
+		"url":"assets/sound/charge.mp3"
 	}]
 }
