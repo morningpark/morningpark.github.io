@@ -13,11 +13,11 @@
 		"name":"maps"
 	},
 	{
-		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,skill2_png,skill3_png,skill1_png,water_json,water_png",
+		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,skill2_png,skill3_png,skill1_png,water_json,water_png,charge_png,charge_json",
 		"name":"uiLoad"
 	},
 	{
-		"keys":"select,monster_die1,monster_die2,monster_die3,monster_die4,roar_mp3,charge_mp3,water_mp3",
+		"keys":"select,monster_die1,monster_die2,monster_die3,monster_die4,roar_mp3,charge_mp3,water_mp3,kuafuCharge_mp3",
 		"name":"soundLoad"
 	},
 	{
@@ -252,5 +252,20 @@
 		"name":"water_mp3",
 		"type":"sound",
 		"url":"assets/sound/water.mp3"
+	},
+	{
+		"name":"kuafuCharge_mp3",
+		"type":"sound",
+		"url":"assets/sound/kuafuCharge.mp3"
+	},
+	{
+		"name":"charge_png",
+		"type":"image",
+		"url":"assets/effect/charge.png"
+	},
+	{
+		"name":"charge_json",
+		"type":"json",
+		"url":"assets/effect/charge.json"
 	}]
 }
