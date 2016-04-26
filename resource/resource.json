@@ -13,7 +13,7 @@
 		"name":"maps"
 	},
 	{
-		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,skill2_png,skill3_png,skill1_png,water_json,water_png,charge_png,charge_json,rockerButton_png,rocker_png",
+		"keys":"uiinfo,mb,victory,lose,tryagain,quitgame,lifeBarBg,lifeBar,stone1png,stone1json,battle_fnt,talk,skill2_png,skill3_png,skill1_png,water_json,water_png,charge_png,charge_json,rockerButton_png,rocker_png,halo_png",
 		"name":"uiLoad"
 	},
 	{
@@ -277,5 +277,10 @@
 		"name":"rocker_png",
 		"type":"image",
 		"url":"assets/rocker.png"
+	},
+	{
+		"name":"halo_png",
+		"type":"image",
+		"url":"assets/halo.png"
 	}]
 }
