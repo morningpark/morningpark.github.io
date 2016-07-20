@@ -12,14 +12,8 @@
     "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
     "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
     "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
-    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
-    "game": "resource/eui_skins/game.exml"
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
   },
   "autoGenerateExmlsList": true,
-  "exmls": [
-    {
-      "path": "resource/eui_skins/game.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"gameSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" >\n\t<w:Config id=\"156017e5f33\" ></w:Config>\n\t<e:Image width=\"481\" height=\"88\" x=\"0\" y=\"0\" source=\"toptable_png\" fillMode=\"clip\"/>\n\t<e:Image width=\"415\" height=\"88\" x=\"0\" y=\"712\" source=\"toptable_png\" fillMode=\"clip\"/>\n\t<e:Image x=\"181\" y=\"12\" width=\"119\" height=\"119\" source=\"yuan_png\" fillMode=\"scale\"/>\n\t<e:Image source=\"table1_png\" x=\"10\" y=\"80\" width=\"145\" height=\"86\"/>\n\t<e:Image source=\"table1_png\" x=\"325\" y=\"80\" width=\"145\" height=\"86\"/>\n\t<e:Image source=\"scroe_png\" x=\"26\" y=\"44\" width=\"112\" height=\"28\"/>\n\t<e:Image source=\"wave_png\" x=\"342\" y=\"40\" width=\"112\" height=\"28\"/>\n\t<e:Image source=\"menu_png\" x=\"416\" y=\"712\" width=\"64\" height=\"88\"/>\n\t<e:Image source=\"e09_png\" x=\"200\" y=\"28\"/>\n\t<e:Label id=\"scroe\" text=\"9999\" x=\"32\" y=\"124\" textColor=\"0x000000\" width=\"102\" textAlign=\"center\" bold=\"true\"/>\n\t<e:Label id=\"wave\" text=\"1/12\" x=\"370\" y=\"124\" textColor=\"0x000000\" bold=\"true\"/>\n</e:Skin>"
-    }
-  ]
+  "exmls": []
 }

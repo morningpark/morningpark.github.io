@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Safety First</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Egret</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="true"/>
@@ -45,7 +44,7 @@
 
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
-         data-orientation="auto"
+         data-orientation="portrait"
          data-scale-mode="showAll"
          data-frame-rate="30"
          data-content-width="480"
@@ -57,7 +56,7 @@
     </div>
     <script>
         //默认使用 WebGL 渲染模式
-        egret.runEgret({renderMode:"canvas"});
+        egret.runEgret({renderMode:"webgl"});
     </script>
 </body>
 </html>
