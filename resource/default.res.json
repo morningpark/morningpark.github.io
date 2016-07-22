@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "l1_json,e2_png,e3_png,e4_png,e0_png,e1_png,grid_png,road_png,enemyConfig_json,e09_png,allColor_png,s1e0_png,s1e1_png,s1e2_png,s1e3_png,s1e4_png,s2e0_png,s2e1_png,s2e2_png,s2e3_png,s2e4_png,s3e0_png,s3e1_png,s3e2_png,s3e3_png,s3e4_png,menu_png,scroe_png,table1_png,toptable_png,wave_png,yuan_png,Clock Tick_wav,Whop_mp3,Wrong Move_mp3,1_wav,bgm_mp3",
+			"keys": "l1_json,e2_png,e3_png,e4_png,e0_png,e1_png,grid_png,road_png,enemyConfig_json,e09_png,allColor_png,s1e0_png,s1e1_png,s1e2_png,s1e3_png,s1e4_png,s2e0_png,s2e1_png,s2e2_png,s2e3_png,s2e4_png,s3e0_png,s3e1_png,s3e2_png,s3e3_png,s3e4_png,menu_png,scroe_png,table1_png,toptable_png,wave_png,yuan_png,Clock Tick_wav,Whop_mp3,Wrong Move_mp3,1_wav,bgm_mp3,life_png,life_black_png,life_white_png",
 			"name": "preload"
 		}
 	],
@@ -190,6 +190,21 @@
 			"name": "bgm_mp3",
 			"type": "sound",
 			"url": "assets/sound/bgm.mp3"
+		},
+		{
+			"name": "life_png",
+			"type": "image",
+			"url": "assets/UI/life.png"
+		},
+		{
+			"name": "life_black_png",
+			"type": "image",
+			"url": "assets/UI/life_black.png"
+		},
+		{
+			"name": "life_white_png",
+			"type": "image",
+			"url": "assets/UI/life_white.png"
 		}
 	]
 }
