@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "l1_json,e2_png,e3_png,e4_png,e0_png,e1_png,grid_png,road_png,enemyConfig_json,e09_png,allColor_png,s1e0_png,s1e1_png,s1e2_png,s1e3_png,s1e4_png,s2e0_png,s2e1_png,s2e2_png,s2e3_png,s2e4_png,s3e0_png,s3e1_png,s3e2_png,s3e3_png,s3e4_png,menu_png,scroe_png,table1_png,toptable_png,wave_png,yuan_png,Clock Tick_wav,Whop_mp3,Wrong Move_mp3,1_wav,bgm_mp3,life_png,life_black_png,life_white_png",
+			"keys": "l1_json,e2_png,e3_png,e4_png,e0_png,e1_png,grid_png,road_png,enemyConfig_json,e09_png,allColor_png,s1e0_png,s1e1_png,s1e2_png,s1e3_png,s1e4_png,s2e0_png,s2e1_png,s2e2_png,s2e3_png,s2e4_png,s3e0_png,s3e1_png,s3e2_png,s3e3_png,s3e4_png,menu_png,scroe_png,table1_png,toptable_png,wave_png,yuan_png,Clock Tick_wav,Whop_mp3,Wrong Move_mp3,1_wav,bgm_mp3,life_png,life_black_png,life_white_png,safety_png,start_png,tips_png,bird_png,main_button_png,planB_png,l2_json",
 			"name": "preload"
 		}
 	],
@@ -205,6 +205,41 @@
 			"name": "life_white_png",
 			"type": "image",
 			"url": "assets/UI/life_white.png"
+		},
+		{
+			"name": "safety_png",
+			"type": "image",
+			"url": "assets/UI/safety.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/UI/start.png"
+		},
+		{
+			"name": "tips_png",
+			"type": "image",
+			"url": "assets/UI/tips.png"
+		},
+		{
+			"name": "bird_png",
+			"type": "image",
+			"url": "assets/UI/bird.png"
+		},
+		{
+			"name": "main_button_png",
+			"type": "image",
+			"url": "assets/UI/main_button.png"
+		},
+		{
+			"name": "planB_png",
+			"type": "image",
+			"url": "assets/UI/planB.png"
+		},
+		{
+			"name": "l2_json",
+			"type": "json",
+			"url": "res/l2.json"
 		}
 	]
 }

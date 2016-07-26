@@ -4,6 +4,6 @@
     "life":5,
     "element":[0,1,2,3],
     "enemyType":[0],
-    "enemyNum":50,
+    "enemyNum":8,
     "levelbgimg":"background"
 }
